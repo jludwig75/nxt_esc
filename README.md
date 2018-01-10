@@ -1,5 +1,5 @@
 # nxt_esc
-This project is for an ESC for connecting an RC receiver and an ordinary RC battery to Lego Mindstorms NXT motors.
+This project is for an ESC for connecting an RC receiver and an ordinary RC battery to Lego Mindstorms NXT motors. I took ideas from Wayne and Layne's Bricktronics shield. I am not an electrical engineer, so if you like this idea and know how to improve it, pleas let me know.
 
 Materials
 - Arduino Pro Mini
