@@ -213,7 +213,7 @@ U 1 1 5A555DFE
 P 5000 1600
 F 0 "RC1" H 5000 800 60  0000 C CNN
 F 1 "RC_Receiver" H 5000 1500 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 4900 1600 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4900 1600 60  0001 C CNN
 F 3 "" H 4900 1600 60  0000 C CNN
 	1    5000 1600
 	1    0    0    -1  

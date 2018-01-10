@@ -35,13 +35,13 @@ LIBS:wayne_and_layne_kicad_symbols
 LIBS:nxt_esc-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Lego NXT ESC"
+Date "2018-01-09"
 Rev ""
-Comp ""
+Comp "Jonathan Ludwig"
 Comment1 ""
 Comment2 ""
 Comment3 ""
