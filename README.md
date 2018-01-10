@@ -12,3 +12,6 @@ Materials
 - 2 trim pots
 - 2 100k ohm resistors
 - 2 NXT jacks from Wayne and Layne
+
+
+![alt text](https://github.com/jludwig75/nxt_esc/blob/master/nxt_esc/nxt_esc.sch.jpg)
