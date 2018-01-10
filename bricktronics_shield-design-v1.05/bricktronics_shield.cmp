@@ -1,0 +1,241 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 16 Mar 2013 07:35:55 PM EDT
+
+BeginCmp
+TimeStamp = /4FA5A9D9;
+Reference = C1;
+ValeurCmp = 0.1u;
+IdModule  = WNL_C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAD825D;
+Reference = C2;
+ValeurCmp = 47u;
+IdModule  = WNL_C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAD828A;
+Reference = C3;
+ValeurCmp = 0.1u;
+IdModule  = WNL_C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAD8281;
+Reference = C4;
+ValeurCmp = 100u;
+IdModule  = WNL_C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /503137C6;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = WNL_D3_BIG_HOLES;
+EndCmp
+
+BeginCmp
+TimeStamp = /50313DC4;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = WNL_D3_BIG_HOLES;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA44AD7;
+Reference = J0;
+ValeurCmp = SENSOR_1;
+IdModule  = WNL_NXT_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA57D23;
+Reference = J1;
+ValeurCmp = SENSOR_2;
+IdModule  = WNL_NXT_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA57D31;
+Reference = J2;
+ValeurCmp = SENSOR_3;
+IdModule  = WNL_NXT_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA57D4B;
+Reference = J3;
+ValeurCmp = SENSOR_4;
+IdModule  = WNL_NXT_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /509EC7F7;
+Reference = J4;
+ValeurCmp = INTA;
+IdModule  = 1pin30mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /509ECB29;
+Reference = J5;
+ValeurCmp = INTB;
+IdModule  = 1pin30mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /50314BF8;
+Reference = L1;
+ValeurCmp = WNL_LOGO;
+IdModule  = LOGO_WNL;
+EndCmp
+
+BeginCmp
+TimeStamp = /50314C18;
+Reference = L2;
+ValeurCmp = BRICKTRONICS;
+IdModule  = LOGO_BRICKTRONICS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAD7DBF;
+Reference = M1;
+ValeurCmp = MOTOR_1;
+IdModule  = WNL_NXT_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EADCE25;
+Reference = M2;
+ValeurCmp = MOTOR_2;
+IdModule  = WNL_NXT_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /501ECE67;
+Reference = P1;
+ValeurCmp = PF1;
+IdModule  = WNL_SIL_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /501ECE71;
+Reference = P2;
+ValeurCmp = PF2;
+IdModule  = WNL_SIL_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /501EAEE3;
+Reference = P4;
+ValeurCmp = EXT0;
+IdModule  = WNL_SIL_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /501EB2FC;
+Reference = P5;
+ValeurCmp = EXT1;
+IdModule  = WNL_SIL_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /50A026EE;
+Reference = P6;
+ValeurCmp = S3JMP;
+IdModule  = WNL_SIL_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /50A02A5E;
+Reference = P7;
+ValeurCmp = S4JMP;
+IdModule  = WNL_SIL_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /501EA9EA;
+Reference = Q4;
+ValeurCmp = TIP120;
+IdModule  = WNL_TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /501EB2EF;
+Reference = Q5;
+ValeurCmp = TIP120;
+IdModule  = WNL_TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /501EAB6E;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = WNL_R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /501EB2F5;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = WNL_R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /509F17C7;
+Reference = R6;
+ValeurCmp = 100k;
+IdModule  = WNL_R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /509F1658;
+Reference = R7;
+ValeurCmp = 100k;
+IdModule  = WNL_R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC809F9;
+Reference = SW1;
+ValeurCmp = RESET;
+IdModule  = OMRON_6MM_PRETTY;
+EndCmp
+
+BeginCmp
+TimeStamp = /5019280E;
+Reference = SW2;
+ValeurCmp = DPDT;
+IdModule  = DPDT_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA5A671;
+Reference = U1;
+ValeurCmp = MCP23017;
+IdModule  = WNL_DIP_28_300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAD81F8;
+Reference = U2;
+ValeurCmp = L293D;
+IdModule  = WNL_DIP_16_300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F01C5A9;
+Reference = X1;
+ValeurCmp = ARDUINOSHIELD;
+IdModule  = ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC04C5F;
+Reference = X2;
+ValeurCmp = ARDUINOSHIELDPROTO;
+IdModule  = ARDUINO_SHIELD_PROTO_HOLES_1_ROW_OUTSIDE;
+EndCmp
+
+EndListe
