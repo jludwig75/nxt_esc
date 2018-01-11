@@ -1,4 +1,4 @@
-(pcb C:\Users\jludwig\Documents\KiCAD\nxt_esc\nxt_esc.dsn
+(pcb C:\Users\jludwig\Documents\nxt_ext\nxt_esc\nxt_esc.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -37,38 +37,44 @@
       (place uP1 151765 -57150 front 0 (PN "ARDUPROMINI-6"))
     )
     (component wayne_and_layne_kicad_modules:WNL_NXT_SOCKET
-      (place J1 167005 -97790 front 180 (PN NXT_MOTOR))
-      (place J2 145415 -97790 front 180 (PN NXT_MOTOR))
+      (place J1 171450 -97790 front 180 (PN NXT_MOTOR))
+      (place J2 141605 -97790 front 180 (PN NXT_MOTOR))
     )
     (component Buttons_Switches_ThroughHole:SW_CuK_OS102011MA1QN1_SPDT_Angled
-      (place SW1 174625 -69215 front 90 (PN "Skid Steer/Drive & Steer"))
+      (place SW1 176530 -69215 front 90 (PN "Skid Steer/Drive & Steer"))
     )
     (component L293D:DIL16
       (place IC1 140335 -81280 front 90 (PN L293D))
     )
     (component Capacitors_ThroughHole:C_Disc_D3.4mm_W2.1mm_P2.50mm
-      (place C3 147320 -82550 front 0 (PN 0.1u))
+      (place C3 147320 -82550 front 0 (PN "0.1 u"))
+      (place C5 158750 -59055 front 90 (PN "0.1 u"))
+      (place C8 159385 -106045 front 90 (PN "0.1 u"))
+      (place C9 153670 -106045 front 90 (PN "0.1 u"))
     )
     (component Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm
       (place C1 149225 -64770 front 270 (PN 47u))
-      (place C2 147955 -88900 front 0 (PN 100u))
+      (place C2 149987 -88265 front 180 (PN 100u))
+      (place C4 154305 -57150 front 270 (PN 100u))
+      (place C6 153035 -99060 front 90 (PN 100u))
+      (place C7 160655 -99060 front 90 (PN 100u))
     )
     (component Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
       (place R1 151130 -71755 front 270 (PN 100k))
       (place R2 147320 -71755 front 270 (PN 100k))
     )
     (component "Power_Integrations:TO-220"
-      (place U1 140335 -66675 front 180 (PN LM7809CT))
+      (place U1 140335 -65405 front 180 (PN LM7805CT))
     )
     (component "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm"
-      (place BT1 146050 -58420 front 180 (PN Battery))
+      (place BT1 144780 -58420 front 180 (PN Battery))
     )
     (component Potentiometers:Potentiometer_Trimmer_ACP_CA6v_Horizontal
       (place RV1 177800 -74930 front 180 (PN "Steering Trim"))
       (place RV2 177800 -84455 front 180 (PN "Steering Sensitivity"))
     )
     (component Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm
-      (place RC1 168275 -57785 front 270 (PN RC_Receiver))
+      (place RC1 171450 -57785 front 270 (PN RC_Receiver))
     )
   )
   (library
@@ -528,14 +534,14 @@
       (pins uP1-15 IC1-7)
     )
     (net VCC
-      (pins uP1-19 IC1-8 C1-1 U1-3)
+      (pins IC1-8 C1-1 U1-1 BT1-1)
     )
     (net "Net-(IC1-Pad3)"
       (pins J1-1 IC1-3)
     )
     (net GND
-      (pins uP1-10 uP1-20 J1-3 SW1-3 IC1-4 IC1-5 IC1-12 IC1-13 J2-3 C3-2 C1-2 C2-2
-        R1-1 R2-2 U1-2 BT1-2 RC1-2)
+      (pins uP1-10 uP1-20 J1-3 SW1-3 IC1-4 IC1-5 IC1-12 IC1-13 J2-3 C3-1 C1-2 C2-2
+        R1-1 R2-2 U1-2 BT1-2 RC1-2 C4-2 C5-1)
     )
     (net "Net-(IC1-Pad6)"
       (pins J1-2 IC1-6)
@@ -598,10 +604,8 @@
       (pins uP1-34)
     )
     (net "Net-(C2-Pad1)"
-      (pins uP1-22 J1-4 SW1-1 IC1-16 J2-4 C3-1 C2-1 RV1-1 RV2-1 RC1-1)
-    )
-    (net "Net-(BT1-Pad1)"
-      (pins U1-1 BT1-1)
+      (pins uP1-19 J1-4 SW1-1 IC1-16 J2-4 C3-2 C2-1 U1-3 RV1-1 RV2-1 RC1-1 C4-1 C5-2
+        C6-1 C7-1 C8-2 C9-2)
     )
     (net "Net-(RV1-Pad3)"
       (pins RV1-3 RV2-3)
@@ -618,15 +622,24 @@
     (net "Net-(uP1-Pad35)"
       (pins uP1-35)
     )
-    (class kicad_default "" GND "Net-(BT1-Pad1)" "Net-(C2-Pad1)" "Net-(IC1-Pad1)"
-      "Net-(IC1-Pad10)" "Net-(IC1-Pad11)" "Net-(IC1-Pad14)" "Net-(IC1-Pad15)"
-      "Net-(IC1-Pad2)" "Net-(IC1-Pad3)" "Net-(IC1-Pad6)" "Net-(IC1-Pad7)"
-      "Net-(IC1-Pad9)" "Net-(J1-Pad5)" "Net-(J1-Pad6)" "Net-(J2-Pad5)" "Net-(J2-Pad6)"
-      "Net-(RC1-Pad3)" "Net-(RC1-Pad4)" "Net-(RC1-Pad5)" "Net-(RV1-Pad2)"
+    (net "Net-(C6-Pad2)"
+      (pins C6-2 C9-1)
+    )
+    (net "Net-(C7-Pad2)"
+      (pins C7-2 C8-1)
+    )
+    (net "Net-(uP1-Pad22)"
+      (pins uP1-22)
+    )
+    (class kicad_default "" GND "Net-(BT1-Pad1)" "Net-(C2-Pad1)" "Net-(C6-Pad2)"
+      "Net-(C7-Pad2)" "Net-(IC1-Pad1)" "Net-(IC1-Pad10)" "Net-(IC1-Pad11)"
+      "Net-(IC1-Pad14)" "Net-(IC1-Pad15)" "Net-(IC1-Pad2)" "Net-(IC1-Pad3)"
+      "Net-(IC1-Pad6)" "Net-(IC1-Pad7)" "Net-(IC1-Pad9)" "Net-(J1-Pad5)" "Net-(J1-Pad6)"
+      "Net-(J2-Pad5)" "Net-(J2-Pad6)" "Net-(RC1-Pad3)" "Net-(RC1-Pad4)" "Net-(RV1-Pad2)"
       "Net-(RV1-Pad3)" "Net-(RV2-Pad2)" "Net-(SW1-Pad2)" "Net-(uP1-Pad21)"
-      "Net-(uP1-Pad23)" "Net-(uP1-Pad31)" "Net-(uP1-Pad32)" "Net-(uP1-Pad34)"
-      "Net-(uP1-Pad35)" "Net-(uP1-Pad7)" "Net-(uP1-Pad8)" "Net-(uP1-Pad9)"
-      VCC
+      "Net-(uP1-Pad22)" "Net-(uP1-Pad23)" "Net-(uP1-Pad31)" "Net-(uP1-Pad32)"
+      "Net-(uP1-Pad34)" "Net-(uP1-Pad35)" "Net-(uP1-Pad7)" "Net-(uP1-Pad8)"
+      "Net-(uP1-Pad9)" VCC
       (circuit
         (use_via Via[0-1]_600:400_um)
       )
@@ -637,18 +650,5 @@
     )
   )
   (wiring
-    (wire (path F.Cu 250  154045 -83820  154305 -83820)(net "Net-(IC1-Pad7)")(type protect))
-    (wire (path F.Cu 250  144145 -77760.2  144145 -77470)(net "Net-(IC1-Pad6)")(type protect))
-    (wire (path B.Cu 250  154305 -91440  153918 -91826.6)(net "Net-(IC1-Pad9)")(type protect))
-    (wire (path B.Cu 250  136525 -75565  136525 -74930)(net "Net-(IC1-Pad10)")(type protect))
-    (wire (path B.Cu 250  136525 -75565  135890 -75565)(net "Net-(IC1-Pad10)")(type protect))
-    (wire (path B.Cu 250  137160 -75565  136525 -75565)(net "Net-(IC1-Pad10)")(type protect))
-    (wire (path B.Cu 250  136525 -85725  136525 -85090)(net "Net-(IC1-Pad14)")(type protect))
-    (wire (path B.Cu 250  136525 -85725  137160 -85725)(net "Net-(IC1-Pad14)")(type protect))
-    (wire (path B.Cu 250  135890 -85725  136525 -85725)(net "Net-(IC1-Pad14)")(type protect))
-    (wire (path F.Cu 250  136525 -88265  136525 -87630)(net "Net-(IC1-Pad15)")(type protect))
-    (wire (path F.Cu 250  137160 -88265  136525 -88265  135890 -88265)(net "Net-(IC1-Pad15)")(type protect))
-    (wire (path B.Cu 250  169545 -84455  169545 -84296.2  169545 -83820)(net "Net-(J2-Pad6)")(type protect))
-    (wire (path F.Cu 250  169545 -71120  168910 -71120)(net "Net-(C2-Pad1)")(type protect))
   )
 )
