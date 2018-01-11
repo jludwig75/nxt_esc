@@ -24,7 +24,7 @@ Still need to figure out:
 
 
 TODO:
-- Make the PCB fit lego dimensions (i.e. multiple of Lego stud spacing (7.985 mm center-to-center)). 8x8 seems like the right size. 6x10 might work too. This would allow building a box on a 10x10 plate or on an 8x12 Lego plate.
+- Make the PCB fit lego dimensions (i.e. multiple of Lego stud spacing (7.985 mm center-to-center)). 6x8 seems like the right size.This would allow building a box on an 8x10 plate. The NXT controller brick is 14x9. I really don't like that it is and odd size. I want to go narrowwe so 6x8 in an 8x10 box seems like a good size. If I can eliminate the excess caps, I could possible go 6x6 in an 8x8 box. That's a nice size, so I can do that. I call also use SMT caps and resistors, but I have not done any surface mount soldering yet.
 
 
 
