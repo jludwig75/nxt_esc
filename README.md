@@ -9,7 +9,7 @@ Materials
 - 1 47 uF capacitor
 - 1 LM7805 5V Voltage vregulator
 - 1 SPDT slider switch
-- 2 trim pots
+- 1 trim pot
 - 2 100k ohm resistors
 - 2 NXT jacks from Wayne and Layne
 
