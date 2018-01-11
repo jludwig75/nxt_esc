@@ -2,16 +2,18 @@
 This project is for an ESC for connecting an RC receiver and an ordinary RC battery to Lego Mindstorms NXT motors. I took ideas from Wayne and Layne's Bricktronics shield. I am not an electrical engineer, so if you like this idea and know how to improve it, pleas let me know.
 
 Materials
-- Arduino Pro Mini
-- L293A motor driver
-- 100 uF capacitors
-- 0.1 uF capacitors
-- 47 uF capacitor
-- 9V Voltage vregulator
-- SPDT slider switch
+- 1 Arduino Pro Mini
+- 1 L293A motor driver
+- 1 100 uF capacitor
+- 1 0.1 uF capacitor
+- 1 47 uF capacitor
+- 1 LM7805 5V Voltage vregulator
+- 1 SPDT slider switch
 - 2 trim pots
 - 2 100k ohm resistors
 - 2 NXT jacks from Wayne and Layne
+
+The PCB is about 0.3 mm smaller in size than a 6x6 Lego plate. This allows it to fit in an 8x8 Lego box. I would recommend using bricks with Technics holes for the sides without controls. This will provide a way to connect it to other NXT/Technics Lego bricks.
 
 Still need to figure out:
 - Do I really need separate smoothing capacitors for the L293D, the receiver, the arduino and the 4.3 V connections to the NXT motors? I think it won't hurt, but it takes up more space.
