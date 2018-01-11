@@ -13,6 +13,7 @@ Materials
 - 2 100k ohm resistors
 - 2 NXT jacks from Wayne and Layne
 
+![alt text](https://github.com/jludwig75/nxt_esc/blob/master/nxt_esc/nxt_esc_pcb.png)
 
 Still need to figure out:
 - Do I really need separate smoothing capacitors for the L293D, the receiver, the arduino and the 4.3 V connections to the NXT motors? I think it won't hurt, but it takes up more space.
