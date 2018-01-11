@@ -13,8 +13,6 @@ Materials
 - 2 100k ohm resistors
 - 2 NXT jacks from Wayne and Layne
 
-![alt text](https://github.com/jludwig75/nxt_esc/blob/master/nxt_esc/nxt_esc_pcb.png)
-
 Still need to figure out:
 - Do I really need separate smoothing capacitors for the L293D, the receiver, the arduino and the 4.3 V connections to the NXT motors? I think it won't hurt, but it takes up more space.
 - I think it's OK to have the LM7085 output go to the arduino VIN. That makes two voltage requlators in series to the pro mini. The specs say 5V is enough power and forum posts suggest even 4.5V is enough.
@@ -27,6 +25,6 @@ Still need to figure out:
 TODO:
 - Make the PCB fit lego dimensions (i.e. multiple of Lego stud spacing (7.985 mm center-to-center)). 6x8 seems like the right size.This would allow building a box on an 8x10 plate. The NXT controller brick is 14x9. I really don't like that it is and odd size. I want to go narrowwe so 6x8 in an 8x10 box seems like a good size. If I can eliminate the excess caps, I could possible go 6x6 in an 8x8 box. That's a nice size, so I can do that. I call also use SMT caps and resistors, but I have not done any surface mount soldering yet.
 
-
+![alt text](https://github.com/jludwig75/nxt_esc/blob/master/nxt_esc/nxt_esc_pcb.png)
 
 ![alt text](https://github.com/jludwig75/nxt_esc/blob/master/nxt_esc/nxt_esc.sch.jpg)
