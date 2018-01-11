@@ -23,7 +23,7 @@ Still need to figure out:
 - Should I use an EC3 or some other common battery jack or just screw terminals? I think screw terminals are nice, because they come off the side and will be lower profile. The screw terminal would also allow a longer overcall connection when connected to the battery.
 - It looks like the receiver I have and most receivers have a steering sensitivity/range setting. If so, I can eliminate the steering sensitivity nob.
 
-If you have any answers to my suggestions, email me at: ![alt text](mailto:jr.ludwig@gmail.com?Subject=NXT%20ESC)
+If you have any answers to my suggestions, email me at jr.ludwig@gmail.com.
 
 TODO:
 - I don't need the steering trim knob. Most receivers have this built in.
