@@ -16,7 +16,7 @@ Materials
 The PCB is about 0.3 mm smaller in size than a 6x6 Lego plate. This allows it to fit in an 8x8 Lego box. I would recommend using bricks with Technics holes for the sides without controls. This will provide a way to connect it to other NXT/Technics Lego bricks.
 
 Still need to figure out:
-- Do I really need separate smoothing capacitors for the L293D, the receiver, the arduino and the 4.3 V connections to the NXT motors? I think it won't hurt, but it takes up more space.
+- Do I need separate smoothing capacitors for the L293D, the receiver, the arduino and the 4.3 V connections to the NXT motors? I think it won't hurt, but it takes up more space. I designed it with one set of smoothing capacitors for all devices, but the motor driver motor voltage input.
 - I think it's OK to have the LM7085 output go to the arduino VIN. That makes two voltage requlators in series to the pro mini. The specs say 5V is enough power and forum posts suggest even 4.5V is enough.
 - I have the 5V to the receiver, the L293D and the NXT motors coming off of of the LM7085 so that the arduino GPIO pins don't have to power them. Is this good? Is it necessary?
 - The Bricktronics shield uses 100 uF and 0.1 uF capacitors together for noise smoothing and power spike protection. Is this a good idea for all components?
