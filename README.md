@@ -26,7 +26,6 @@ Still need to figure out:
 If you have any answers to my suggestions, email me at jr.ludwig@gmail.com.
 
 TODO:
-- I don't need the steering trim knob. Most receivers have this built in.
 - Fix up the PCB labels for the steering sensitivity knob and the receiver connection.
 - Move the NXT jacks and steering type switch so that small Lego bricks can be used to hold that end of the board in a Lego box and still allow access to them. I need to print out the schematic and measure it against Lego bricks to see.
 
