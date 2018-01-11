@@ -27,7 +27,7 @@ If you have any answers to my suggestions, email me at jr.ludwig@gmail.com.
 
 TODO:
 - Fix up the PCB labels for the steering sensitivity knob and the receiver connection.
-- Move the NXT jacks and steering type switch so that small Lego bricks can be used to hold that end of the board in a Lego box and still allow access to them. I need to print out the schematic and measure it against Lego bricks to see.
+- Move the NXT jacks and steering type switch so that small Lego bricks can be used to hold that end of the board in a Lego box and still allow access to them. I need to print out the schematic and measure it against Lego bricks to see. This may not be necessary, because I can use 1x6 strips at the bottom and top of the opening to hold it in place.
 
 ![alt text](https://github.com/jludwig75/nxt_esc/blob/master/nxt_esc/nxt_esc_pcb.png)
 
