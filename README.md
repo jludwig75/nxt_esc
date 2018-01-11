@@ -19,6 +19,7 @@ Still need to figure out:
 - I have the 5V to the receiver, the L293D and the NXT motors coming off of of the LM7085 so that the arduino GPIO pins don't have to power them. Is this good? Is it necessary?
 - The Bricktronics shield uses 100 uF and 0.1 uF capacitors together for noise smoothing and power spike protection. Is this a good idea for all components?
 - I have a lot of crossing traces. Some lines are PWM signals. Do I need to do anything with routing my traces to avoid interference? I think the frequencies are too low to worry about.
+- Although the Arduino can handle up to 12 V input, I read some forum posts that the internal regulator can get hot if used on a 7.2/7.4 volt battery so I added an external regulator. Do I need to do this? Would it be better to use a switching power supply instead?
 - Should I use an EC3 or some other common battery jack or just screw terminals? I think screw terminals are nice, because they come off the side and will be lower profile. The screw terminal would also allow a longer overcall connection when connected to the battery.
 
 
