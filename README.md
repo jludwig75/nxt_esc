@@ -23,11 +23,14 @@ Still need to figure out:
 - Should I use an EC3 or some other common battery jack or just screw terminals? I think screw terminals are nice, because they come off the side and will be lower profile. The screw terminal would also allow a longer overcall connection when connected to the battery.
 - It looks like the receiver I have and most receivers have a steering sensitivity/range setting. If so, I can eliminate the steering sensitivity nob.
 
+If you have any answers to my suggestions, email me at: ![alt text](mailto:jr.ludwig@gmail.com?Subject=NXT%20ESC)
 
 TODO:
 - I don't need the steering trim knob. Most receivers have this built in.
-- Make the PCB fit lego dimensions (i.e. multiple of Lego stud spacing (7.985 mm center-to-center)). 6x8 seems like the right size.This would allow building a box on an 8x10 plate. The NXT controller brick is 14x9. I really don't like that it is and odd size. I want to go narrowwe so 6x8 in an 8x10 box seems like a good size. If I can eliminate the excess caps, I could possible go 6x6 in an 8x8 box. That's a nice size, so I can do that. I call also use SMT caps and resistors, but I have not done any surface mount soldering yet. 8x10 does not seem to be a standard Lego plate size. 6x6 would be the best size to shoot for. Hopefully I don't need all of the caps. Since I don't seem to need the steering trim and sensitivity nobs, I can remove those too. That means is should be easy to get it down to 6x6.
+- Make the PCB fit lego dimensions (i.e. multiple of Lego stud spacing (7.985 mm center-to-center)). 6x8 seems like the right size.This would allow building a box on an 8x8 plate. The NXT controller brick is 14x9. I really don't like that it is and odd size. I want to go narrow so 6x6 in an 8x8 box seems like a good size. I need to can eliminate the excess caps to do this. That's a nice size, so I can do that. I could also use SMT caps and resistors, but I have not done any surface mount soldering yet. 8x10 does not seem to be a standard Lego plate size. 6x6 would be the best size to shoot for. Hopefully I don't need all of the caps. Since I don't seem to need the steering trim and sensitivity nobs, I can remove those too. That means is should be easy to get it down to 6x6.
 
 ![alt text](https://github.com/jludwig75/nxt_esc/blob/master/nxt_esc/nxt_esc_pcb.png)
 
 ![alt text](https://github.com/jludwig75/nxt_esc/blob/master/nxt_esc/nxt_esc.sch.jpg)
+
+
