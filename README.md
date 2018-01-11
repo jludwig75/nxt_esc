@@ -24,6 +24,7 @@ Still need to figure out:
 
 
 TODO:
+- Make the PCB fit lego dimensions (i.e. multiple of Lego stud spacing (7.985 mm center-to-center)). 8x8 seems like the right size. 6x10 might work too. This would allow building a box on a 10x10 plate or on an 8x12 Lego plate.
 
 
 
