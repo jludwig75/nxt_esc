@@ -25,7 +25,7 @@ Still need to figure out:
 - Should I use an EC3 or some other common battery jack or just screw terminals? I think screw terminals are nice, because they come off the side and will be lower profile. The screw terminal would also allow a longer overcall connection when connected to the battery.
 - It looks like the receiver I have and most receivers have a steering sensitivity/range setting. If so, I can eliminate the steering sensitivity knob.
 
-If you have any answers to my suggestions, email me at jr.ludwig@gmail.com.
+If you have any answers to my questions or suggestions, email me at jr.ludwig@gmail.com.
 
 TODO:
 - Fix up the PCB labels for the steering sensitivity knob and the receiver connection.
