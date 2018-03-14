@@ -1,4 +1,4 @@
-update=1/9/2018 5:03:27 PM
+update=3/14/2018 5:07:18 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=valves
 LibName31=arduino_pro_mini/ArduProMiniTKB
 LibName32=L293D/L293D
 LibName33=C:/Users/jludwig/Documents/KiCAD/bricktronics_shield-design-v1.05/wayne_and_layne_kicad_symbols
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
