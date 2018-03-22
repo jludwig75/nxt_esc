@@ -1,0 +1,11 @@
+(module 1pin30mil (layer F.Cu) (tedit 504FEAE1)
+  (descr "module for 1 pin 30 mil hole, perfect")
+  (tags "DEV pin p")
+  (fp_text reference P? (at 1.6637 1.0033) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value **VAL (at -1.1049 -1.2192) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.016 1.016) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
+)

@@ -1,0 +1,9 @@
+(module LOGO_TEST (layer F.Cu) (tedit 4D6C0161)
+  (fp_text reference G*** (at 0 4.953) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value LOGO_TEST (at 0 -3.556) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_line (start 0.762 -0.762) (end 0.762 -0.762) (layer F.SilkS) (width 0.254))
+)

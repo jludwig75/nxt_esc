@@ -1,0 +1,18 @@
+(module silk_star (layer F.Cu) (tedit 4CB35223)
+  (fp_text reference silk_star (at 0 -1.4605) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0 1.5875) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_line (start -0.1905 -0.0635) (end 0.1905 -0.0635) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.1905 -0.0635) (end -0.127 0.1905) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.127 0.1905) (end 0 -0.127) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0 -0.127) (end 0.127 0.1905) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.127 0.1905) (end -0.1905 -0.0635) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.254 0.381) (end 0 -0.381) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0 -0.381) (end 0.254 0.381) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.254 0.381) (end -0.381 -0.127) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.381 -0.127) (end 0.381 -0.127) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.381 -0.127) (end -0.254 0.381) (layer F.SilkS) (width 0.127))
+)

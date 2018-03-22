@@ -1,0 +1,11 @@
+(module hole_lego_axle (layer F.Cu) (tedit 50313E84)
+  (descr "module for 1 pin 4.8mm hole for LEGO axles")
+  (tags "DEV pin p")
+  (fp_text reference P? (at 3.048 2.032) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value hole_lego_axle (at 0 3.29946) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 4.8006 4.8006) (drill 4.8006) (layers *.Cu *.SilkS))
+)

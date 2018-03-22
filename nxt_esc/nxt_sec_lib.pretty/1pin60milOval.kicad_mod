@@ -1,0 +1,11 @@
+(module 1pin60milOval (layer F.Cu) (tedit 5034353A)
+  (descr "module for 1 pin 60 mil hole for a shirt pin, oval shaped")
+  (tags "DEV pin p")
+  (fp_text reference P? (at 3.048 2.032) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value 1pin60milOval (at 0 3.29946) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (pad 1 thru_hole oval (at 0 0) (size 3.81 2.54) (drill 1.524) (layers *.Cu *.Mask F.SilkS))
+)

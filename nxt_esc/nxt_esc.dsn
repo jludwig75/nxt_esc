@@ -40,14 +40,11 @@
       (place J1 151130 -113665 front 180 (PN NXT_MOTOR))
       (place J2 118745 -113665 front 180 (PN NXT_MOTOR))
     )
-    (component Buttons_Switches_ThroughHole:SW_CuK_OS102011MA1QN1_SPDT_Angled
-      (place SW1 132715 -122555 front 0 (PN "Skid Steer/Drive & Steer"))
-    )
     (component L293D:DIL16
       (place IC1 117475 -98425 front 90 (PN L293D))
     )
     (component Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm
-      (place C1 133350 -85090 front 270 (PN 47u))
+      (place C1 129794 -86487 front 0 (PN 47u))
       (place C2 148590 -87630 front 90 (PN 100u))
     )
     (component Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
@@ -58,11 +55,8 @@
     (component "Power_Integrations:TO-220"
       (place U1 139827 -83312 front 270 (PN LM7805CT))
     )
-    (component "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm"
-      (place BT1 120015 -81915 front 180 (PN Battery))
-    )
     (component Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm
-      (place RC1 147955 -80645 front 90 (PN RC_Receiver))
+      (place RC1 147955 -80137 front 90 (PN RC_Receiver))
     )
     (component Capacitors_ThroughHole:C_Disc_D3.4mm_W2.1mm_P2.50mm
       (place C3 154940 -87630 front 90 (PN "0.1 u"))
@@ -76,8 +70,12 @@
     (component "Diodes_ThroughHole:D_A-405_P10.16mm_Horizontal"
       (place D1 124714 -98298 front 90 (PN D_Schottky))
     )
-    (component Buttons_Switches_ThroughHole:SW_DIP_x1_W7.62mm_Slide
-      (place SW3 124841 -80645 front 0 (PN SPST))
+    (component nxt_sec_lib:SCREW_TERMINAL_JRL
+      (place Battery 116434 -82194.4 front 180 (PN Battery))
+    )
+    (component nxt_sec_lib:SLIDE_SWITCH_JRL
+      (place SW1 134264 -122022 front 0 (PN "Skid Steer/Drive & Steer"))
+      (place SW3 128829 -80518 front 0 (PN Power))
     )
   )
   (library
@@ -129,27 +127,6 @@
       (keepout "" (circle B.Cu 2413 6083.3 1993.9))
       (keepout "" (circle F.Cu 2413 -5981.7 1993.9))
       (keepout "" (circle B.Cu 2413 -5981.7 1993.9))
-    )
-    (image Buttons_Switches_ThroughHole:SW_CuK_OS102011MA1QN1_SPDT_Angled
-      (outline (path signal 100  -2300 2200  6300 2200))
-      (outline (path signal 100  -2300 2200  -2300 -2200))
-      (outline (path signal 100  -2300 -2200  6300 -2200))
-      (outline (path signal 100  6300 -2200  6300 2200))
-      (outline (path signal 100  2000 -2200  2000 -6200))
-      (outline (path signal 100  2000 -6200  0 -6200))
-      (outline (path signal 100  0 -6200  0 -2200))
-      (outline (path signal 150  -2300 2300  6300 2300))
-      (outline (path signal 150  -2300 -2300  -100 -2300))
-      (outline (path signal 150  4000 -2300  6300 -2300))
-      (outline (path signal 50  7700 2700  7700 -6700))
-      (outline (path signal 50  7700 -6700  -3700 -6700))
-      (outline (path signal 50  -3700 -6700  -3700 2700))
-      (outline (path signal 50  -3700 2700  7700 2700))
-      (pin Rect[A]Pad_1500x2500_um 1 0 0)
-      (pin Oval[A]Pad_1500x2500_um 2 2000 0)
-      (pin Oval[A]Pad_1500x2500_um 3 4000 0)
-      (pin Oval[A]Pad_2200x3500_um @1 -2100 0)
-      (pin Oval[A]Pad_2200x3500_um @2 6100 0)
     )
     (image L293D:DIL16
       (outline (path signal 152.4  10160 2921  -10160 2921))
@@ -340,24 +317,6 @@
       (pin Oval[A]Pad_2032x2540_um 3 2540 0)
       (pin Oval[A]Pad_2032x2540_um 1 -2540 0)
     )
-    (image "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm"
-      (outline (path signal 100  -2410 -2550  7490 -2550))
-      (outline (path signal 100  -2460 3750  -2460 -3750))
-      (outline (path signal 100  -2460 -3750  7540 -3750))
-      (outline (path signal 100  7540 -3750  7540 3750))
-      (outline (path signal 100  7540 3750  -2460 3750))
-      (outline (path signal 120  7620 -2540  -2540 -2540))
-      (outline (path signal 120  7620 -3810  7620 3810))
-      (outline (path signal 120  7620 3810  -2540 3810))
-      (outline (path signal 120  -2540 3810  -2540 -3810))
-      (outline (path signal 120  -2540 -3810  7620 -3810))
-      (outline (path signal 50  -2710 4000  7790 4000))
-      (outline (path signal 50  -2710 4000  -2710 -4000))
-      (outline (path signal 50  7790 -4000  7790 4000))
-      (outline (path signal 50  7790 -4000  -2710 -4000))
-      (pin Rect[A]Pad_3000x3000_um 1 0 0)
-      (pin Round[A]Pad_3000_um 2 5080 0)
-    )
     (image Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm
       (outline (path signal 100  -635 1270  1270 1270))
       (outline (path signal 100  1270 1270  1270 -8890))
@@ -484,34 +443,26 @@
       (pin Rect[A]Pad_1800x1800_um 1 0 0)
       (pin Oval[A]Pad_1800x1800_um 2 10160 0)
     )
-    (image Buttons_Switches_ThroughHole:SW_DIP_x1_W7.62mm_Slide
-      (outline (path signal 120  -1400 2680  -1400 1410))
-      (outline (path signal 120  -1400 2680  1140 2680))
-      (outline (path signal 100  -80 2360  8700 2360))
-      (outline (path signal 100  8700 2360  8700 -2360))
-      (outline (path signal 100  8700 -2360  -1080 -2360))
-      (outline (path signal 100  -1080 -2360  -1080 1360))
-      (outline (path signal 100  -1080 1360  -80 2360))
-      (outline (path signal 100  1780 635  1780 -635))
-      (outline (path signal 100  1780 -635  5840 -635))
-      (outline (path signal 100  5840 -635  5840 635))
-      (outline (path signal 100  5840 635  1780 635))
-      (outline (path signal 100  3810 635  3810 -635))
-      (outline (path signal 120  -1200 2480  8820 2480))
-      (outline (path signal 120  8820 2480  8820 -2480))
-      (outline (path signal 120  8820 -2480  -1200 -2480))
-      (outline (path signal 120  -1200 -2480  -1200 2480))
-      (outline (path signal 120  1780 635  1780 -635))
-      (outline (path signal 120  1780 -635  5840 -635))
-      (outline (path signal 120  5840 -635  5840 635))
-      (outline (path signal 120  5840 635  1780 635))
-      (outline (path signal 120  3810 635  3810 -635))
-      (outline (path signal 50  -1400 2700  -1400 -2700))
-      (outline (path signal 50  -1400 -2700  9000 -2700))
-      (outline (path signal 50  9000 -2700  9000 2700))
-      (outline (path signal 50  9000 2700  -1400 2700))
-      (pin Rect[A]Pad_1600x1600_um 1 0 0)
-      (pin Oval[A]Pad_1600x1600_um 2 7620 0)
+    (image nxt_sec_lib:SCREW_TERMINAL_JRL
+      (outline (path signal 150  -5000 4500  5000 4500))
+      (outline (path signal 150  5000 4500  5000 -4500))
+      (outline (path signal 150  5000 -4500  -5000 -4500))
+      (outline (path signal 150  -5000 -4500  -5000 4500))
+      (pin Round[A]Pad_1762_um 2 2500 0)
+      (pin Round[A]Pad_1762_um 1 -2500 0)
+    )
+    (image nxt_sec_lib:SLIDE_SWITCH_JRL
+      (outline (path signal 150  -6100 2800  6100 2800))
+      (outline (path signal 150  6100 2800  6100 -2800))
+      (outline (path signal 150  6100 -2800  -6100 -2800))
+      (outline (path signal 150  -6100 -2800  -6100 2800))
+      (pin Round[A]Pad_1762_um 2 0 0)
+      (pin Round[A]Pad_1762_um 1 -3000 0)
+      (pin Round[A]Pad_1762_um 3 3000 0)
+      (keepout "" (circle F.Cu 2600 5850 0))
+      (keepout "" (circle B.Cu 2600 5850 0))
+      (keepout "" (circle F.Cu 2600 -5850 0))
+      (keepout "" (circle B.Cu 2600 -5850 0))
     )
     (padstack Round[A]Pad_1400_um
       (shape (circle F.Cu 1400))
@@ -538,14 +489,14 @@
       (shape (circle B.Cu 1620))
       (attach off)
     )
+    (padstack Round[A]Pad_1762_um
+      (shape (circle F.Cu 1762))
+      (shape (circle B.Cu 1762))
+      (attach off)
+    )
     (padstack Round[A]Pad_2000_um
       (shape (circle F.Cu 2000))
       (shape (circle B.Cu 2000))
-      (attach off)
-    )
-    (padstack Round[A]Pad_3000_um
-      (shape (circle F.Cu 3000))
-      (shape (circle B.Cu 3000))
       (attach off)
     )
     (padstack "Oval[A][0,-508]Pad_1270x2286_um"
@@ -568,16 +519,6 @@
       (shape (path B.Cu 1400  0 0  0 0))
       (attach off)
     )
-    (padstack Oval[A]Pad_1500x2500_um
-      (shape (path F.Cu 1500  0 -500  0 500))
-      (shape (path B.Cu 1500  0 -500  0 500))
-      (attach off)
-    )
-    (padstack Oval[A]Pad_1600x1600_um
-      (shape (path F.Cu 1600  0 0  0 0))
-      (shape (path B.Cu 1600  0 0  0 0))
-      (attach off)
-    )
     (padstack Oval[A]Pad_1700x1700_um
       (shape (path F.Cu 1700  0 0  0 0))
       (shape (path B.Cu 1700  0 0  0 0))
@@ -591,21 +532,6 @@
     (padstack Oval[A]Pad_2032x2540_um
       (shape (path F.Cu 2032  0 -254  0 254))
       (shape (path B.Cu 2032  0 -254  0 254))
-      (attach off)
-    )
-    (padstack Oval[A]Pad_2200x3500_um
-      (shape (path F.Cu 2200  0 -650  0 650))
-      (shape (path B.Cu 2200  0 -650  0 650))
-      (attach off)
-    )
-    (padstack Rect[A]Pad_3000x3000_um
-      (shape (rect F.Cu -1500 -1500 1500 1500))
-      (shape (rect B.Cu -1500 -1500 1500 1500))
-      (attach off)
-    )
-    (padstack Rect[A]Pad_1500x2500_um
-      (shape (rect F.Cu -750 -1250 750 1250))
-      (shape (rect B.Cu -750 -1250 750 1250))
       (attach off)
     )
     (padstack Rect[A]Pad_1600x1600_um
@@ -646,8 +572,8 @@
       (pins J1-1 IC1-3)
     )
     (net GND
-      (pins uP1-10 uP1-20 J1-3 SW1-3 IC1-4 IC1-5 IC1-12 IC1-13 J2-3 C1-2 R1-1 R2-2
-        U1-2 BT1-2 RC1-2 C2-2 C3-2 RV1-3 R3-1)
+      (pins uP1-10 uP1-20 J1-3 IC1-4 IC1-5 IC1-12 IC1-13 J2-3 C1-2 R1-1 R2-2 U1-2
+        RC1-2 C2-2 C3-2 RV1-3 R3-1 Battery-2 SW1-3)
     )
     (net "Net-(IC1-Pad6)"
       (pins J1-2 IC1-6)
@@ -689,7 +615,7 @@
       (pins uP1-24 SW1-2)
     )
     (net "Net-(C2-Pad1)"
-      (pins uP1-19 J1-4 SW1-1 IC1-16 J2-4 U1-3 RC1-1 C2-1 C3-1 RV1-1 SW2-2 SW2-2@1)
+      (pins uP1-19 J1-4 IC1-16 J2-4 U1-3 RC1-1 C2-1 C3-1 RV1-1 SW2-2 SW2-2@1 SW1-1)
     )
     (net "Net-(RV1-Pad2)"
       (pins uP1-26 RV1-2)
@@ -698,17 +624,20 @@
       (pins uP1-25 R3-2 SW2-1 SW2-1@1)
     )
     (net "Net-(BT1-Pad1)"
-      (pins BT1-1 SW3-1)
+      (pins Battery-1 SW3-2)
     )
     (net "Net-(D1-Pad2)"
-      (pins D1-2 SW3-2)
+      (pins D1-2 SW3-1)
     )
     (class kicad_default "" GND "Net-(BT1-Pad1)" "Net-(C2-Pad1)" "Net-(D1-Pad2)"
       "Net-(IC1-Pad1)" "Net-(IC1-Pad10)" "Net-(IC1-Pad11)" "Net-(IC1-Pad14)"
       "Net-(IC1-Pad15)" "Net-(IC1-Pad2)" "Net-(IC1-Pad3)" "Net-(IC1-Pad6)"
       "Net-(IC1-Pad7)" "Net-(IC1-Pad9)" "Net-(J1-Pad5)" "Net-(J1-Pad6)" "Net-(J2-Pad5)"
       "Net-(J2-Pad6)" "Net-(R3-Pad2)" "Net-(RC1-Pad3)" "Net-(RC1-Pad4)" "Net-(RV1-Pad2)"
-      "Net-(SW1-Pad2)" VCC
+      "Net-(SW1-Pad2)" "Net-(SW3-Pad3)" "Net-(uP1-Pad21)" "Net-(uP1-Pad22)"
+      "Net-(uP1-Pad23)" "Net-(uP1-Pad31)" "Net-(uP1-Pad32)" "Net-(uP1-Pad34)"
+      "Net-(uP1-Pad35)" "Net-(uP1-Pad7)" "Net-(uP1-Pad8)" "Net-(uP1-Pad9)"
+      VCC
       (circuit
         (use_via Via[0-1]_600:400_um)
       )

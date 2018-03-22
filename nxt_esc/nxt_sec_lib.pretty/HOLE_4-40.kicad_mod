@@ -1,0 +1,11 @@
+(module HOLE_4-40 (layer F.Cu) (tedit 5050942A)
+  (descr "hole 4-40")
+  (fp_text reference P? (at 0 -4.064) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value HOLE_4-40 (at 0 4.191) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_circle (center 0 0) (end 3.175 0) (layer Dwgs.User) (width 0.2032))
+  (pad "" thru_hole circle (at 0 0 90) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.SilkS))
+)
