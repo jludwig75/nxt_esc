@@ -37,8 +37,8 @@
       (place uP1 121920 -108585 front 90 (PN "ARDUPROMINI-6"))
     )
     (component wayne_and_layne_kicad_modules:WNL_NXT_SOCKET
-      (place J1 151130 -113665 front 180 (PN NXT_MOTOR))
-      (place J2 118745 -113665 front 180 (PN NXT_MOTOR))
+      (place J1 151079 -120752 front 0 (PN NXT_MOTOR))
+      (place J2 118821 -120752 front 0 (PN NXT_MOTOR))
     )
     (component L293D:DIL16
       (place IC1 117475 -98425 front 90 (PN L293D))
@@ -71,11 +71,11 @@
       (place D1 124714 -98298 front 90 (PN D_Schottky))
     )
     (component nxt_sec_lib:SCREW_TERMINAL_JRL
-      (place Battery 116434 -82194.4 front 180 (PN Battery))
+      (place Battery 116383 -82194.4 front 180 (PN Battery))
     )
     (component nxt_sec_lib:SLIDE_SWITCH_JRL
-      (place SW1 134264 -122022 front 0 (PN "Skid Steer/Drive & Steer"))
-      (place SW3 128829 -80518 front 0 (PN Power))
+      (place On/Off 129083 -80518 front 0 (PN Power))
+      (place SW1 134671 -122022 front 0 (PN "Skid Steer/Drive & Steer"))
     )
   )
   (library
@@ -459,10 +459,8 @@
       (pin Round[A]Pad_1762_um 2 0 0)
       (pin Round[A]Pad_1762_um 1 -3000 0)
       (pin Round[A]Pad_1762_um 3 3000 0)
-      (keepout "" (circle F.Cu 2600 5850 0))
-      (keepout "" (circle B.Cu 2600 5850 0))
-      (keepout "" (circle F.Cu 2600 -5850 0))
-      (keepout "" (circle B.Cu 2600 -5850 0))
+      (pin Oval[A]Pad_2600x2600_um @1 5850 0)
+      (pin Oval[A]Pad_2600x2600_um @2 -5850 0)
     )
     (padstack Round[A]Pad_1400_um
       (shape (circle F.Cu 1400))
@@ -532,6 +530,11 @@
     (padstack Oval[A]Pad_2032x2540_um
       (shape (path F.Cu 2032  0 -254  0 254))
       (shape (path B.Cu 2032  0 -254  0 254))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2600x2600_um
+      (shape (path F.Cu 2600  0 0  0 0))
+      (shape (path B.Cu 2600  0 0  0 0))
       (attach off)
     )
     (padstack Rect[A]Pad_1600x1600_um
@@ -624,20 +627,17 @@
       (pins uP1-25 R3-2 SW2-1 SW2-1@1)
     )
     (net "Net-(BT1-Pad1)"
-      (pins Battery-1 SW3-2)
+      (pins Battery-1 On/Off-2)
     )
     (net "Net-(D1-Pad2)"
-      (pins D1-2 SW3-1)
+      (pins D1-2 On/Off-1)
     )
     (class kicad_default "" GND "Net-(BT1-Pad1)" "Net-(C2-Pad1)" "Net-(D1-Pad2)"
       "Net-(IC1-Pad1)" "Net-(IC1-Pad10)" "Net-(IC1-Pad11)" "Net-(IC1-Pad14)"
       "Net-(IC1-Pad15)" "Net-(IC1-Pad2)" "Net-(IC1-Pad3)" "Net-(IC1-Pad6)"
       "Net-(IC1-Pad7)" "Net-(IC1-Pad9)" "Net-(J1-Pad5)" "Net-(J1-Pad6)" "Net-(J2-Pad5)"
       "Net-(J2-Pad6)" "Net-(R3-Pad2)" "Net-(RC1-Pad3)" "Net-(RC1-Pad4)" "Net-(RV1-Pad2)"
-      "Net-(SW1-Pad2)" "Net-(SW3-Pad3)" "Net-(uP1-Pad21)" "Net-(uP1-Pad22)"
-      "Net-(uP1-Pad23)" "Net-(uP1-Pad31)" "Net-(uP1-Pad32)" "Net-(uP1-Pad34)"
-      "Net-(uP1-Pad35)" "Net-(uP1-Pad7)" "Net-(uP1-Pad8)" "Net-(uP1-Pad9)"
-      VCC
+      "Net-(SW1-Pad2)" VCC
       (circuit
         (use_via Via[0-1]_600:400_um)
       )
