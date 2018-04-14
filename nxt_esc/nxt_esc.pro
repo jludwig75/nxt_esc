@@ -1,4 +1,4 @@
-update=3/14/2018 5:07:18 PM
+update=3/24/2018 8:04:11 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -62,13 +72,3 @@ LibName30=valves
 LibName31=arduino_pro_mini/ArduProMiniTKB
 LibName32=L293D/L293D
 LibName33=C:/Users/jludwig/Documents/KiCAD/bricktronics_shield-design-v1.05/wayne_and_layne_kicad_symbols
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

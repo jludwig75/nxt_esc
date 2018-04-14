@@ -1,9 +1,9 @@
-(pcb C:\Users\jludwig\Documents\nxt_ext\nxt_esc\nxt_esc.dsn
+(pcb C:\Users\Deneen\Documents\Arduino\nxt_esc\nxt_esc\nxt_esc.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "4.0.2-stable")
+    (host_version "4.0.7")
   )
   (resolution um 10)
   (unit um)
@@ -34,14 +34,14 @@
   )
   (placement
     (component "ArduProMiniTKB:ArduProMini-6"
-      (place uP1 121920 -108585 front 90 (PN "ARDUPROMINI-6"))
+      (place uP1 122936 -108712 front 90 (PN "ARDUPROMINI-6"))
     )
     (component wayne_and_layne_kicad_modules:WNL_NXT_SOCKET
       (place J1 151079 -120752 front 0 (PN NXT_MOTOR))
       (place J2 118821 -120752 front 0 (PN NXT_MOTOR))
     )
     (component L293D:DIL16
-      (place IC1 117475 -98425 front 90 (PN L293D))
+      (place IC1 116840 -98425 front 90 (PN L293D))
     )
     (component Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm
       (place C1 129794 -86487 front 0 (PN 47u))
@@ -68,7 +68,7 @@
       (place SW2 127635 -112395 front 0 (PN "Center Steering"))
     )
     (component "Diodes_ThroughHole:D_A-405_P10.16mm_Horizontal"
-      (place D1 124714 -98298 front 90 (PN D_Schottky))
+      (place D1 123952 -97282 front 90 (PN D_Schottky))
     )
     (component nxt_sec_lib:SCREW_TERMINAL_JRL
       (place Battery 116383 -82194.4 front 180 (PN Battery))

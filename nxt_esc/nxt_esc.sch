@@ -31,7 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:ArduProMiniTKB
 LIBS:L293D
-LIBS:wayne_and_layne_kicad_symbols
 LIBS:nxt_esc-cache
 EELAYER 25 0
 EELAYER END
@@ -538,7 +537,7 @@ F 3 "" H 10200 2450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Battery BT1
+L Battery-RESCUE-nxt_esc BT1
 U 1 1 5A556E73
 P 8050 2750
 F 0 "BT1" H 8150 2800 50  0000 L CNN
@@ -573,7 +572,7 @@ F 3 "" H 8300 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-nxt_esc RV1
 U 1 1 5A557E6E
 P 8250 4750
 F 0 "RV1" H 8250 4650 50  0000 C CNN
